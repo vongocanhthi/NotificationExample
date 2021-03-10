@@ -1,12 +1,8 @@
-package com.vnat.notificationexample;
+package com.vnat.notificationexample.notification;
 
 import android.app.Application;
-import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.provider.Settings;
-
-import androidx.core.app.NotificationCompat;
 
 public class App extends Application {
     public static final String CHANNEL_1_ID = "channel1";
